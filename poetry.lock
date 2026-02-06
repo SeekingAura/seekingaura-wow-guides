@@ -586,6 +586,25 @@ standalone = ["Sphinx (>=5)"]
 test = ["pytest"]
 
 [[package]]
+name = "sphinxext-opengraph"
+version = "0.13.0"
+description = "Sphinx Extension to enable OGP support"
+optional = false
+python-versions = ">=3.9"
+groups = ["main"]
+files = [
+    {file = "sphinxext_opengraph-0.13.0-py3-none-any.whl", hash = "sha256:936c07828edc9ad9a7b07908b29596dc84ed0b3ceaa77acdf51282d232d4d80e"},
+    {file = "sphinxext_opengraph-0.13.0.tar.gz", hash = "sha256:103335d08567ad8468faf1425f575e3b698e9621f9323949a6c8b96d9793e80b"},
+]
+
+[package.dependencies]
+Sphinx = ">=6.0"
+
+[package.extras]
+rtd = ["furo (>=2024)", "sphinx (>=8.1.0,<8.2.0)", "sphinx-design"]
+social-cards = ["matplotlib (>=3)"]
+
+[[package]]
 name = "urllib3"
 version = "2.6.3"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -606,4 +625,4 @@ zstd = ["backports-zstd (>=1.0.0) ; python_version < \"3.14\""]
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "0a81b3332d21a4a3ed74e79d5f70adfa0ad2d453fc00bd39a85cc039d6dd64bc"
+content-hash = "e3ca7af967908f3fde4bd61bf2eed57335b6defaffab268d719722c95fcb1daf"

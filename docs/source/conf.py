@@ -15,10 +15,13 @@ author = "Seeking Aura"
 
 extensions = [
     "sphinx_rtd_dark_mode",
+    "sphinxext.opengraph",
 ]
 
 templates_path = ["_templates"]
 exclude_patterns = []
+
+ogp_site_url = "https://wow.seekingaura.com/"
 
 
 # -- Options for HTML output -------------------------------------------------
