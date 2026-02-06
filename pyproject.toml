@@ -14,6 +14,9 @@ dependencies = [
     "sphinx-rtd-dark-mode (>=1.3.0,<2.0.0)"
 ]
 
+[tool.poetry]
+package-mode = false
+
 [tool.black]
 line-length = 119
 
