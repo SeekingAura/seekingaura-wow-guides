@@ -205,3 +205,16 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/*-template.json
+!.vscode/*-template.jsonc
+!.vscode/extensions.json
+
+# Keep .gitkeep files
+# To keep an empty directory, add a .gitkeep file to it
+# and ignore the directory with a wildcard:
+#     /path/to/dir/*
+# this will ignore the content but not the director itself.
+!/**/.gitkeep

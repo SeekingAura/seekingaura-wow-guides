@@ -1,0 +1,27 @@
+[project]
+name = "seekingaura-wow-guides"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Carlos Moreno",email = "dev@seekingaura.com"}
+]
+license = {text = "CC-BY-SA-4.0"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "sphinx (>=9.1.0,<10.0.0)",
+    "sphinx-rtd-theme (>=3.1.0,<4.0.0)",
+    "sphinx-rtd-dark-mode (>=1.3.0,<2.0.0)"
+]
+
+[tool.black]
+line-length = 119
+
+[tool.isort]
+force_grid_wrap = 2
+multi_line_output = 3
+include_trailing_comma = true
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
