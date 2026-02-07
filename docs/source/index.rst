@@ -1,9 +1,11 @@
 Wow Seeking Aura Guides
 =======================
 
-Notes, tips, and cheat sheets for wow, based on my personal experience!
+Notes, tips, and imports for wow, based on my personal experience!
 
-Gaming is not just about "playing a game and nothing else" While enjoying and relaxing with a game, you can also solve puzzles and problems, dive into programming, scripting, data analysis, and so much more! Within every game, communities create a wealth of tools-like extended context, enhanced UI, data utilities, scripting resources, and beyond. Personally, I love exploring the possibilities of programming within games (such as creating macros and addons), as well as analyzing data like damage behavior, market trends, app usage, etc.
+While enjoying and relaxing with a game, you can also solve puzzles and problems, dive into programming, scripting, data analysis, and so much more! Within every game, communities create a wealth of tools-like extended context, enhanced UI, data utilities, scripting resources, and beyond. Gaming is not just about *playing a game and nothing else*.
+
+Personally, I love explore the possibilities of programming within games (such as creating macros, addons, mods, explore how works, etc), as well as analyzing data like damage behavior, market trends, app usage, etc.
 
 I spend my relaxing moments with gaming while thinking up new programming ideas and doing research. Here, I want to share relevant insights that could be useful to others interested in programming in games, along with general tips and tools that have been helpful to me.
 
@@ -32,7 +34,7 @@ On this page, I will focus specifically on the **Retail version**, as I will foc
    :maxdepth: 3
    :caption: Config
 
-   install
+   install/index
    optimization
 
 .. toctree::
@@ -40,4 +42,6 @@ On this page, I will focus specifically on the **Retail version**, as I will foc
    :caption: Gen
 
    glossary
+   license
+
 
