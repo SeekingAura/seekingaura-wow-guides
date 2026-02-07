@@ -2,6 +2,11 @@
 #
 # For the full list of built-in configuration values, see the documentation:
 # https://www.sphinx-doc.org/en/master/usage/configuration.html
+import os
+import sys
+
+sys.path.append(os.path.abspath("_ext"))
+
 
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
@@ -16,6 +21,7 @@ author = "Seeking Aura"
 extensions = [
     "sphinx_rtd_dark_mode",
     "sphinxext.opengraph",
+    "wowtooltip",
 ]
 
 templates_path = ["_templates"]
