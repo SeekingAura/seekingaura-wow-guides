@@ -24,7 +24,7 @@ jobs:
         run: poetry install
 
       - name: Build Sphinx HTML
-        run: poetry run sphinx-build -b html docs/source docs/build/html
+        run: poetry run sphinx-build -b html docs/source docs/build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
